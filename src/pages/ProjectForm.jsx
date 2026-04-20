@@ -241,7 +241,7 @@ const ProjectForm = () => {
     if (!can3) return;
     setSubmitting(true);
     try {
-      const res = await fetch('http://localhost:5000/api/contact', {
+      const res = await fetch('https://imperiial-backend.onrender.com', {
         method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form),
       });
       if (!res.ok) throw new Error();

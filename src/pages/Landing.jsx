@@ -307,11 +307,11 @@ const Landing = () => {
         </div>
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)' }}>
           {[
-            { num: '01', title: 'Web Architecture', desc: 'High-performance React & Next.js platforms built for SEO dominance, load speed obsession, and scale.', icon: Globe },
+            { num: '01', title: 'Web Architecture', desc: 'High performance React & Next.js platforms built for SEO dominance, load speed obsession, and scale.', icon: Globe },
             { num: '02', title: 'Mobile Ecosystems', desc: 'Native iOS and Android. Seamless, responsive experiences built for the modern consumer.', icon: Smartphone },
             { num: '03', title: 'Artificial Intelligence', desc: 'Custom LLM agents and automation workflows that optimize your entire business operation.', icon: Zap },
-            { num: '04', title: 'Bespoke Software', desc: 'Tailor-made solutions designed for your unique business logic. No templates. No shortcuts.', icon: Layers },
-            { num: '05', title: 'Product Design', desc: 'UI/UX that combines aesthetic purity with conversion-optimized user flows. Beauty is function.', icon: Layout },
+            { num: '04', title: 'Bespoke Software', desc: 'Tailor made solutions designed for your unique business logic. No templates. No shortcuts.', icon: Layers },
+            { num: '05', title: 'Product Design', desc: 'UI/UX that combines aesthetic purity with conversion optimized user flows. Beauty is function.', icon: Layout },
           ].map((item, i) => <ServiceRow key={item.num} {...item} index={i} />)}
         </div>
       </section>
@@ -330,7 +330,7 @@ const Landing = () => {
             {[
               { n: '01', t: 'Discovery & Blueprint', b: 'We analyze your business logic, identify constraints, and architect a scalable roadmap — before a single line of code is written.' },
               { n: '02', t: 'Sovereign Development', b: 'Rapid, transparent engineering sprints. Secure builds, live staging, and obsessive precision throughout the entire lifecycle.' },
-              { n: '03', t: 'Deployment & Ascension', b: "Rigorous testing, flawless deployment, and post-launch infrastructure support. Your digital asset doesn't just launch — it dominates." },
+              { n: '03', t: 'Deployment & Ascension', b: "Rigorous testing, flawless deployment, and post launch infrastructure support. Your digital asset doesn't just launch — it dominates." },
             ].map(({ n, t, b }, i) => (
               <div key={n}
                 className="p-8 md:p-12"
